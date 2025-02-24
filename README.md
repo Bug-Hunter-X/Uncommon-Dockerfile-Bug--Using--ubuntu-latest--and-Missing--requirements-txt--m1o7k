@@ -1,0 +1,1 @@
+This example demonstrates a common issue in Dockerfiles: using the non-specific `ubuntu:latest` tag and missing a critical file (`requirements.txt`).  The `ubuntu:latest` tag can lead to unexpected build variations as updates to the base image may occur.  Missing the `requirements.txt` leads to a failed build. The solution demonstrates good practices.
